@@ -1,0 +1,84 @@
+#title {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#userTable {
+    height: 40px;
+    width: 100%;
+    background: #E6F1FF;
+    border-collapse: collapse;
+}
+
+#userTable th {
+    width: auto;
+    text-align: center;
+    border: solid 1px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#userTable th label,
+#userTable th input {
+    width: 80%;
+    height: auto;
+}
+
+#questDivAll {
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#questDivCenter {
+    width: 80%;
+    height: 100%;
+}
+
+#questTable {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabloBaslik:nth-child(odd) {
+    background: rgb(228, 228, 228);
+}
+
+.soru {
+    text-align: left;
+    border: solid 1px;
+    
+}
+
+.cevap {
+    text-align: center;
+    border: solid 1px;   
+}
+
+#submitDiv {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submitCenter {
+    height: 100%;
+    width: 200px;
+}
+
+#submitBut {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    border: solid 1px;
+}
